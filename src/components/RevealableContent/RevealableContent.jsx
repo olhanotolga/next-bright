@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-function CodeSnippetWrapper({children}) {
+function RevealableContent({children}) {
   const [
       isSnippetShown,
       setIsSnippetShown,
@@ -22,4 +22,4 @@ function CodeSnippetWrapper({children}) {
   );
 }
 
-export default CodeSnippetWrapper;
+export default RevealableContent;
